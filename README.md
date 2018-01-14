@@ -7,11 +7,12 @@ Dictionary uses the Oxford English Dictionary API to implement command-line dict
 3. Run dictionary: `./dictionary.py --help`.
 
 ## Examples
-Dictionary:
+
+### Dictionary:
 `./dictionary.py bird`
 
-Thesaurus
-`./dictionary.py -t bird
+### Thesaurus:
+`./dictionary.py -t bird`
 
 ## Customization
 Just modify the `print_*` functions in `dictionary.py`.
