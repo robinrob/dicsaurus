@@ -1,0 +1,494 @@
+{
+  "metadata": {
+    "provider": "Oxford University Press"
+  },
+  "results": [
+    {
+      "id": "test",
+      "language": "en",
+      "lexicalEntries": [
+        {
+          "entries": [
+            {
+              "homographNumber": "000",
+              "senses": [
+                {
+                  "examples": [
+                    {
+                      "text": "we'll be conducting a series of scientific tests"
+                    }
+                  ],
+                  "id": "t_en_gb0014747.001",
+                  "subsenses": [
+                    {
+                      "id": "id817235f4-3182-4854-94cc-0c29179c539d",
+                      "synonyms": [
+                        {
+                          "id": "check",
+                          "language": "en",
+                          "text": "check"
+                        },
+                        {
+                          "id": "examination",
+                          "language": "en",
+                          "text": "examination"
+                        },
+                        {
+                          "id": "assessment",
+                          "language": "en",
+                          "text": "assessment"
+                        },
+                        {
+                          "id": "evaluation",
+                          "language": "en",
+                          "text": "evaluation"
+                        },
+                        {
+                          "id": "appraisal",
+                          "language": "en",
+                          "text": "appraisal"
+                        },
+                        {
+                          "id": "investigation",
+                          "language": "en",
+                          "text": "investigation"
+                        },
+                        {
+                          "id": "inspection",
+                          "language": "en",
+                          "text": "inspection"
+                        },
+                        {
+                          "id": "analysis",
+                          "language": "en",
+                          "text": "analysis"
+                        },
+                        {
+                          "id": "scrutiny",
+                          "language": "en",
+                          "text": "scrutiny"
+                        },
+                        {
+                          "id": "scrutinization",
+                          "language": "en",
+                          "text": "scrutinization"
+                        },
+                        {
+                          "id": "study",
+                          "language": "en",
+                          "text": "study"
+                        },
+                        {
+                          "id": "probe",
+                          "language": "en",
+                          "text": "probe"
+                        },
+                        {
+                          "id": "exploration",
+                          "language": "en",
+                          "text": "exploration"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "id47dd9dbf-e420-4fb1-a4f1-db22e7e3937c",
+                      "synonyms": [
+                        {
+                          "id": "screening",
+                          "language": "en",
+                          "text": "screening"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "idc077906f-3013-4627-b7fa-022e3e90bde7",
+                      "synonyms": [
+                        {
+                          "id": "audition",
+                          "language": "en",
+                          "text": "audition"
+                        },
+                        {
+                          "id": "screen_test",
+                          "language": "en",
+                          "text": "screen test"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "id3161ab06-9476-40fd-9719-6c7e86aac328",
+                      "registers": [
+                        "technical"
+                      ],
+                      "synonyms": [
+                        {
+                          "id": "assay",
+                          "language": "en",
+                          "text": "assay"
+                        }
+                      ]
+                    }
+                  ],
+                  "synonyms": [
+                    {
+                      "id": "trial",
+                      "language": "en",
+                      "text": "trial"
+                    },
+                    {
+                      "id": "experiment",
+                      "language": "en",
+                      "text": "experiment"
+                    },
+                    {
+                      "id": "pilot_study",
+                      "language": "en",
+                      "text": "pilot study"
+                    },
+                    {
+                      "id": "try-out",
+                      "language": "en",
+                      "text": "try-out"
+                    }
+                  ]
+                },
+                {
+                  "examples": [
+                    {
+                      "text": "candidates may be required to take a test"
+                    }
+                  ],
+                  "id": "t_en_gb0014747.002",
+                  "subsenses": [
+                    {
+                      "id": "idd13b819a-50c3-4fa7-a3ee-4ca19c6ece3e",
+                      "synonyms": [
+                        {
+                          "id": "paper",
+                          "language": "en",
+                          "text": "paper"
+                        },
+                        {
+                          "id": "set_of_questions",
+                          "language": "en",
+                          "text": "set of questions"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "id597e3783-d472-4e36-aac8-fcc555b50f52",
+                      "regions": [
+                        "North American"
+                      ],
+                      "synonyms": [
+                        {
+                          "id": "quiz",
+                          "language": "en",
+                          "text": "quiz"
+                        }
+                      ]
+                    }
+                  ],
+                  "synonyms": [
+                    {
+                      "id": "exam",
+                      "language": "en",
+                      "text": "exam"
+                    },
+                    {
+                      "id": "examination",
+                      "language": "en",
+                      "text": "examination"
+                    }
+                  ]
+                },
+                {
+                  "examples": [
+                    {
+                      "text": "the test of a good sparkling wine is the length of time the bubbles last in the glass"
+                    }
+                  ],
+                  "id": "t_en_gb0014747.003",
+                  "synonyms": [
+                    {
+                      "id": "criterion",
+                      "language": "en",
+                      "text": "criterion"
+                    },
+                    {
+                      "id": "proof",
+                      "language": "en",
+                      "text": "proof"
+                    },
+                    {
+                      "id": "indication",
+                      "language": "en",
+                      "text": "indication"
+                    },
+                    {
+                      "id": "yardstick",
+                      "language": "en",
+                      "text": "yardstick"
+                    },
+                    {
+                      "id": "touchstone",
+                      "language": "en",
+                      "text": "touchstone"
+                    },
+                    {
+                      "id": "standard",
+                      "language": "en",
+                      "text": "standard"
+                    },
+                    {
+                      "id": "measure",
+                      "language": "en",
+                      "text": "measure"
+                    },
+                    {
+                      "id": "litmus_test",
+                      "language": "en",
+                      "text": "litmus test"
+                    },
+                    {
+                      "id": "barometer",
+                      "language": "en",
+                      "text": "barometer"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": "en",
+          "lexicalCategory": "Noun",
+          "text": "test"
+        },
+        {
+          "entries": [
+            {
+              "homographNumber": "001",
+              "senses": [
+                {
+                  "examples": [
+                    {
+                      "text": "during the summer, a small-scale prototype was tested"
+                    },
+                    {
+                      "text": "all donated blood is tested for antibodies"
+                    }
+                  ],
+                  "id": "t_en_gb0014747.004",
+                  "subsenses": [
+                    {
+                      "id": "id15fe6b71-1f80-44a1-9196-21271837b5bc",
+                      "synonyms": [
+                        {
+                          "id": "check",
+                          "language": "en",
+                          "text": "check"
+                        },
+                        {
+                          "id": "examine",
+                          "language": "en",
+                          "text": "examine"
+                        },
+                        {
+                          "id": "assess",
+                          "language": "en",
+                          "text": "assess"
+                        },
+                        {
+                          "id": "evaluate",
+                          "language": "en",
+                          "text": "evaluate"
+                        },
+                        {
+                          "id": "appraise",
+                          "language": "en",
+                          "text": "appraise"
+                        },
+                        {
+                          "id": "investigate",
+                          "language": "en",
+                          "text": "investigate"
+                        },
+                        {
+                          "id": "analyse",
+                          "language": "en",
+                          "text": "analyse"
+                        },
+                        {
+                          "id": "scrutinize",
+                          "language": "en",
+                          "text": "scrutinize"
+                        },
+                        {
+                          "id": "study",
+                          "language": "en",
+                          "text": "study"
+                        },
+                        {
+                          "id": "probe",
+                          "language": "en",
+                          "text": "probe"
+                        },
+                        {
+                          "id": "explore",
+                          "language": "en",
+                          "text": "explore"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "id6025dbe8-7b43-4f4f-bd3d-e1451e559451",
+                      "synonyms": [
+                        {
+                          "id": "sample",
+                          "language": "en",
+                          "text": "sample"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "id98347f5f-45c8-48e0-af9e-18ae7d150cef",
+                      "synonyms": [
+                        {
+                          "id": "screen",
+                          "language": "en",
+                          "text": "screen"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "idc4f460e3-bd44-4653-9ffa-4b9a38089c84",
+                      "registers": [
+                        "technical"
+                      ],
+                      "synonyms": [
+                        {
+                          "id": "assay",
+                          "language": "en",
+                          "text": "assay"
+                        }
+                      ]
+                    }
+                  ],
+                  "synonyms": [
+                    {
+                      "id": "try_out",
+                      "language": "en",
+                      "text": "try out"
+                    },
+                    {
+                      "id": "trial",
+                      "language": "en",
+                      "text": "trial"
+                    },
+                    {
+                      "id": "carry_out_trials_on",
+                      "language": "en",
+                      "text": "carry out trials on"
+                    },
+                    {
+                      "id": "put_to_the_test",
+                      "language": "en",
+                      "text": "put to the test"
+                    },
+                    {
+                      "id": "put_through_its_paces",
+                      "language": "en",
+                      "text": "put through its paces"
+                    },
+                    {
+                      "id": "experiment_with",
+                      "language": "en",
+                      "text": "experiment with"
+                    },
+                    {
+                      "id": "pilot",
+                      "language": "en",
+                      "text": "pilot"
+                    }
+                  ]
+                },
+                {
+                  "examples": [
+                    {
+                      "text": "such behaviour would severely test any marriage"
+                    }
+                  ],
+                  "id": "t_en_gb0014747.005",
+                  "subsenses": [
+                    {
+                      "id": "ide546c36a-1122-4ce5-9ebd-d6e87603374d",
+                      "synonyms": [
+                        {
+                          "id": "drain",
+                          "language": "en",
+                          "text": "drain"
+                        },
+                        {
+                          "id": "sap",
+                          "language": "en",
+                          "text": "sap"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "id536ae5c4-98e0-465d-a764-4dc8267eb624",
+                      "synonyms": [
+                        {
+                          "id": "challenge",
+                          "language": "en",
+                          "text": "challenge"
+                        }
+                      ]
+                    }
+                  ],
+                  "synonyms": [
+                    {
+                      "id": "put_a_strain_on",
+                      "language": "en",
+                      "text": "put a strain on"
+                    },
+                    {
+                      "id": "strain",
+                      "language": "en",
+                      "text": "strain"
+                    },
+                    {
+                      "id": "tax",
+                      "language": "en",
+                      "text": "tax"
+                    },
+                    {
+                      "id": "try",
+                      "language": "en",
+                      "text": "try"
+                    },
+                    {
+                      "id": "make_demands_on",
+                      "language": "en",
+                      "text": "make demands on"
+                    },
+                    {
+                      "id": "stretch",
+                      "language": "en",
+                      "text": "stretch"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": "en",
+          "lexicalCategory": "Verb",
+          "text": "test"
+        }
+      ],
+      "type": "headword",
+      "word": "test"
+    }
+  ]
+}

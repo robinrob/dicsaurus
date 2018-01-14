@@ -1,0 +1,532 @@
+{
+  "metadata": {
+    "provider": "Oxford University Press"
+  },
+  "results": [
+    {
+      "id": "blue",
+      "language": "en",
+      "lexicalEntries": [
+        {
+          "derivatives": [
+            {
+              "id": "blueness",
+              "text": "blueness"
+            }
+          ],
+          "entries": [
+            {
+              "etymologies": [
+                "Middle English: from Old French bleu, ultimately of Germanic origin and related to Old English bl\u01e3wen \u2018blue\u2019 and Old Norse bl\u00e1r \u2018dark blue\u2019 (see also blaeberry)"
+              ],
+              "grammaticalFeatures": [
+                {
+                  "text": "Positive",
+                  "type": "Degree"
+                }
+              ],
+              "homographNumber": "100",
+              "senses": [
+                {
+                  "definitions": [
+                    "of a colour intermediate between green and violet, as of the sky or sea on a sunny day"
+                  ],
+                  "examples": [
+                    {
+                      "text": "a blue silk shirt"
+                    },
+                    {
+                      "text": "the clear blue sky"
+                    },
+                    {
+                      "text": "deep blue eyes"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.008",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "(of a person's skin) having turned blue as a result of cold or breathing difficulties"
+                      ],
+                      "examples": [
+                        {
+                          "text": "Ashley went blue and I panicked"
+                        }
+                      ],
+                      "id": "m_en_gbus0106270.012"
+                    },
+                    {
+                      "definitions": [
+                        "(of a bird or other animal) having blue markings"
+                      ],
+                      "examples": [
+                        {
+                          "text": "a blue jay"
+                        }
+                      ],
+                      "id": "m_en_gbus0106270.013"
+                    },
+                    {
+                      "definitions": [
+                        "(of a cat, fox, or rabbit) having fur of a smoky grey colour"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the blue fox"
+                        }
+                      ],
+                      "id": "m_en_gbus0106270.015"
+                    },
+                    {
+                      "definitions": [
+                        "(of a ski run) of the second-lowest level of difficulty, as indicated by blue markers positioned along it."
+                      ],
+                      "domains": [
+                        "Skiing"
+                      ],
+                      "id": "m_en_gbus0106270.016"
+                    },
+                    {
+                      "definitions": [
+                        "denoting one of three colours of quark."
+                      ],
+                      "domains": [
+                        "Physics"
+                      ],
+                      "id": "m_en_gbus0106270.017"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "(of a person or mood) melancholy, sad, or depressed"
+                  ],
+                  "examples": [
+                    {
+                      "text": "he's feeling blue"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.019",
+                  "registers": [
+                    "informal"
+                  ]
+                },
+                {
+                  "definitions": [
+                    "(of a film, joke, or story) having sexual or pornographic content"
+                  ],
+                  "domains": [
+                    "Sex"
+                  ],
+                  "examples": [
+                    {
+                      "text": "a blue movie"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.021",
+                  "registers": [
+                    "informal"
+                  ]
+                },
+                {
+                  "definitions": [
+                    "politically conservative"
+                  ],
+                  "domains": [
+                    "Politics"
+                  ],
+                  "examples": [
+                    {
+                      "text": "the successful blue candidate"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.024",
+                  "regions": [
+                    "British"
+                  ],
+                  "registers": [
+                    "informal"
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": "en",
+          "lexicalCategory": "Adjective",
+          "pronunciations": [
+            {
+              "audioFile": "http://audio.oxforddictionaries.com/en/mp3/blue_gb_1.mp3",
+              "dialects": [
+                "British English"
+              ],
+              "phoneticNotation": "IPA",
+              "phoneticSpelling": "blu\u02d0"
+            }
+          ],
+          "text": "blue"
+        },
+        {
+          "derivatives": [
+            {
+              "id": "blueness",
+              "text": "blueness"
+            }
+          ],
+          "entries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "text": "Singular",
+                  "type": "Number"
+                }
+              ],
+              "homographNumber": "101",
+              "senses": [
+                {
+                  "definitions": [
+                    "blue colour or pigment"
+                  ],
+                  "examples": [
+                    {
+                      "text": "she was dressed in blue"
+                    },
+                    {
+                      "text": "armchairs in pastel blues and greens"
+                    },
+                    {
+                      "text": "the dark blue of his eyes"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.029",
+                  "notes": [
+                    {
+                      "text": "mass noun",
+                      "type": "grammaticalNote"
+                    }
+                  ],
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "blue clothes or material"
+                      ],
+                      "domains": [
+                        "Clothing"
+                      ],
+                      "examples": [
+                        {
+                          "text": "Susan wore blue"
+                        }
+                      ],
+                      "id": "m_en_gbus0106270.032"
+                    },
+                    {
+                      "definitions": [
+                        "the blue ball in snooker, billiards, and similar games."
+                      ],
+                      "domains": [
+                        "Billiards"
+                      ],
+                      "id": "m_en_gbus0106270.034"
+                    },
+                    {
+                      "crossReferenceMarkers": [
+                        "another term for bluing"
+                      ],
+                      "crossReferences": [
+                        {
+                          "id": "bluing",
+                          "text": "bluing",
+                          "type": "another term for"
+                        }
+                      ],
+                      "id": "m_en_gbus0106270.037"
+                    },
+                    {
+                      "definitions": [
+                        "the sky or sea, or the unknown"
+                      ],
+                      "examples": [
+                        {
+                          "text": "far out upon the blue were many sails"
+                        }
+                      ],
+                      "id": "m_en_gbus0106270.039",
+                      "notes": [
+                        {
+                          "text": "\"the blue\"",
+                          "type": "wordFormNote"
+                        }
+                      ],
+                      "registers": [
+                        "literary"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "a small butterfly, the male of which is predominantly blue while the female is typically brown."
+                  ],
+                  "domains": [
+                    "Insect"
+                  ],
+                  "id": "m_en_gbus0106270.041",
+                  "notes": [
+                    {
+                      "text": "usually with modifier",
+                      "type": "grammaticalNote"
+                    },
+                    {
+                      "text": "Numerous genera in the family Lycaenidae",
+                      "type": "technicalNote"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "a person who has represented Cambridge University (a Cambridge blue) or Oxford University (an Oxford blue) at a particular sport in a match between the two universities"
+                  ],
+                  "domains": [
+                    "University",
+                    "Sport"
+                  ],
+                  "examples": [
+                    {
+                      "text": "a flyweight boxing blue"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.044",
+                  "regions": [
+                    "British"
+                  ],
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "a distinction awarded to a Cambridge blue or an Oxford blue"
+                      ],
+                      "domains": [
+                        "University",
+                        "Sport"
+                      ],
+                      "examples": [
+                        {
+                          "text": "Adrian's brother won a rugby blue in December"
+                        }
+                      ],
+                      "id": "m_en_gbus0106270.047"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "an argument or fight"
+                  ],
+                  "examples": [
+                    {
+                      "text": "did you have a blue or what?"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.049",
+                  "regions": [
+                    "NZ",
+                    "Australian"
+                  ],
+                  "registers": [
+                    "informal"
+                  ]
+                },
+                {
+                  "definitions": [
+                    "a mistake"
+                  ],
+                  "examples": [
+                    {
+                      "text": "his tactical blue in saying the opposition wasn't ready to govern"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.051",
+                  "regions": [
+                    "NZ",
+                    "Australian"
+                  ],
+                  "registers": [
+                    "informal"
+                  ]
+                },
+                {
+                  "definitions": [
+                    "a nickname for a red-headed person"
+                  ],
+                  "examples": [
+                    {
+                      "text": "only an Aussie could make a red-headed man \u2018Blue.\u2019"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.053",
+                  "regions": [
+                    "NZ",
+                    "Australian"
+                  ],
+                  "registers": [
+                    "informal"
+                  ]
+                },
+                {
+                  "definitions": [
+                    "a supporter of the Conservative Party."
+                  ],
+                  "id": "m_en_gbus0106270.055",
+                  "regions": [
+                    "British"
+                  ],
+                  "registers": [
+                    "informal"
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": "en",
+          "lexicalCategory": "Noun",
+          "pronunciations": [
+            {
+              "audioFile": "http://audio.oxforddictionaries.com/en/mp3/blue_gb_1.mp3",
+              "dialects": [
+                "British English"
+              ],
+              "phoneticNotation": "IPA",
+              "phoneticSpelling": "blu\u02d0"
+            }
+          ],
+          "text": "blue"
+        },
+        {
+          "derivatives": [
+            {
+              "id": "blueness",
+              "text": "blueness"
+            }
+          ],
+          "entries": [
+            {
+              "grammaticalFeatures": [
+                {
+                  "text": "Present",
+                  "type": "Tense"
+                }
+              ],
+              "homographNumber": "102",
+              "senses": [
+                {
+                  "definitions": [
+                    "make or become blue"
+                  ],
+                  "examples": [
+                    {
+                      "text": "blued paper"
+                    },
+                    {
+                      "text": "the day would haze, the air bluing with afternoon"
+                    },
+                    {
+                      "text": "the light dims, bluing the retina"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.062",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "heat (metal) so as to give it a greyish-blue finish"
+                      ],
+                      "domains": [
+                        "Metallurgy"
+                      ],
+                      "examples": [
+                        {
+                          "text": "nickel-plated or blued hooks"
+                        }
+                      ],
+                      "id": "m_en_gbus0106270.069",
+                      "notes": [
+                        {
+                          "text": "with object",
+                          "type": "grammaticalNote"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "wash (white clothes) with bluing"
+                  ],
+                  "examples": [
+                    {
+                      "text": "they blued the shirts and starched the uniforms"
+                    }
+                  ],
+                  "id": "m_en_gbus0106270.071",
+                  "notes": [
+                    {
+                      "text": "with object",
+                      "type": "grammaticalNote"
+                    }
+                  ],
+                  "registers": [
+                    "historical"
+                  ]
+                }
+              ]
+            },
+            {
+              "etymologies": [
+                "mid 19th century: perhaps a variant of blow"
+              ],
+              "grammaticalFeatures": [
+                {
+                  "text": "Transitive",
+                  "type": "Subcategorization"
+                },
+                {
+                  "text": "Present",
+                  "type": "Tense"
+                }
+              ],
+              "homographNumber": "400",
+              "senses": [
+                {
+                  "definitions": [
+                    "squander or recklessly spend (money)."
+                  ],
+                  "id": "m_en_gbus0106280.003",
+                  "regions": [
+                    "British"
+                  ],
+                  "registers": [
+                    "dated",
+                    "informal"
+                  ]
+                }
+              ]
+            }
+          ],
+          "language": "en",
+          "lexicalCategory": "Verb",
+          "pronunciations": [
+            {
+              "audioFile": "http://audio.oxforddictionaries.com/en/mp3/blue_gb_1.mp3",
+              "dialects": [
+                "British English"
+              ],
+              "phoneticNotation": "IPA",
+              "phoneticSpelling": "blu\u02d0"
+            }
+          ],
+          "text": "blue"
+        }
+      ],
+      "type": "headword",
+      "word": "blue"
+    }
+  ]
+}
