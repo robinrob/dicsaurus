@@ -4,6 +4,7 @@ import json
 import urllib.request
 import urllib.parse
 import argparse
+import config
 
 
 BASE_URL = 'https://od-api.oxforddictionaries.com/api/v1'
@@ -17,11 +18,11 @@ def get_definitions(config, word):
     req = urllib.request.Request(
         "{base_url}/entries/en/{word}".format(
             base_url=BASE_URL,
-            word=args.word
+            word=word
         ),
         headers={
-            'app_id': config['app_id'],
-            'app_key': config['app_key']
+            'app_id': config.APP_ID,
+            'app_key': config.APP_KEY
         }
     )
     res = urllib.request.urlopen(req).read()
@@ -30,7 +31,7 @@ def get_definitions(config, word):
 
 def print_definitions(word, data):
     for result in data['results']:
-        print("\nDefinitions:")
+        print(f"\nDefinitions for '{word}'")
 
         for lex_entry in result['lexicalEntries']:
             indent = get_indent()
@@ -67,11 +68,11 @@ def get_synonyms(config, word):
     req = urllib.request.Request(
         "{base_url}/entries/en/{word}/synonyms".format(
             base_url=BASE_URL,
-            word=args.word
+            word=word
         ),
         headers={
-            'app_id': config['app_id'],
-            'app_key': config['app_key']
+            'app_id': config.APP_ID,
+            'app_key': config.APP_KEY
         }
     )
     res = urllib.request.urlopen(req).read()
@@ -105,8 +106,6 @@ def print_synonyms(word, data):
 
 
 if __name__ == '__main__':
-    config = json.loads(open('config.json').read())
-
     parser = argparse.ArgumentParser(description='Get dictionary/thesaurus entries for words.')
 
     parser.add_argument(
