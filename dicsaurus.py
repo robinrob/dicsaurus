@@ -44,6 +44,9 @@ def print_definitions(word, data):
                 with_preceding_newlines=1 if index == 0 else 2
             )
 
+            examples = []
+            etymologies = []
+
             if 'derivative' in lex_entry and len(lex_entry['derivatives']) > 0:
                 print_with_indent(f"Derivative(s):", 2, with_preceding_newlines=1)
 
@@ -52,17 +55,27 @@ def print_definitions(word, data):
 
             for entry in lex_entry['entries']:
                 if len(entry['senses']) > 0:
-                    print_with_indent(f"Example(s):", 2, with_preceding_newlines=1)
                     for sense in entry['senses']:
                         if 'examples' in sense:
                             for example in sense['examples']:
-                                print_with_indent(f"{example['text']}", 3)
+                                examples.append(example)
 
                 if 'etymologies' in entry:
-                    print_with_indent(f"Etomologie(s):", 2, with_preceding_newlines=1)
-
                     for et in entry['etymologies']:
-                        print_with_indent(f"{et}", 3)
+                        etymologies.append(et)
+
+            if len(examples) > 0:
+                print_with_indent(f"Example(s):", 2, with_preceding_newlines=1)
+
+                for example in examples:
+                    print_with_indent(f"{example['text']}", 3)
+
+
+            if len(etymologies) > 0:
+                print_with_indent(f"Etomologie(s):", 2, with_preceding_newlines=1)
+
+                for et in etymologies:
+                    print_with_indent(f"{et}", 3)
 
 
 def get_synonyms(config, word):
@@ -89,28 +102,41 @@ def print_synonyms(word, data):
 
             for entry in lex_entry['entries']:
                 for sense in entry['senses']:
-                    if 'registers' in sense:
-                        registers = ", ".join(sense['registers'])
-                        print_with_indent(f"{lex_entry['text']} ({registers})", 1, with_preceding_newlines=2)
+                    synonyms = []
+                    examples = []
+
+                    # if 'registers' in sense:
+                    #     registers = ", ".join(sense['registers'])
+                    #     print_with_indent(f"{lex_entry['text']} ({registers})", 1, with_preceding_newlines=2)
 
                     if len(sense['synonyms']) > 0:
-                        print_with_indent("Snynoym(s):", 2, with_preceding_newlines=1)
                         for syn in sense['synonyms']:
-                            print_with_indent(f"{syn['text']}", 3)
+                            synonyms.append(syn)
 
                     if 'examples' in sense:
+                        for example in sense['examples']:
+                            examples.append(example)
+
+
+                    if len(synonyms) > 0:
+                        print_with_indent("Snynoym(s):", 2, with_preceding_newlines=1)
+
+                        for syn in synonyms:
+                            print_with_indent(f"{syn['text']}", 3)
+
+
+                    if len(examples) > 0:
                         print_with_indent(f"Example(s):", 2, with_preceding_newlines=1)
 
-                        for example in sense['examples']:
+                        for example in examples:
                             print_with_indent(f"{example['text']}", 3)
 
-
-                        # if 'subsenses' in sense:
-                        #     print_with_indent(f"Example(s):", 2, with_preceding_newlines=1)
-                        #
-                        #     for subsense in sense['subsenses']:
-                        #         for syn in subsense['synonyms']:
-                        #             print_with_indent(f"{syn['text']}", 3)
+                    # if 'subsenses' in sense:
+                    #     print_with_indent(f"Example(s):", 2, with_preceding_newlines=1)
+                    #
+                    #     for subsense in sense['subsenses']:
+                    #         for syn in subsense['synonyms']:
+                    #             print_with_indent(f"{syn['text']}", 3)
 
 
 if __name__ == '__main__':
