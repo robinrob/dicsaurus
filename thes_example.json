@@ -4,7 +4,7 @@
   },
   "results": [
     {
-      "id": "test",
+      "id": "blue",
       "language": "en",
       "lexicalEntries": [
         {
@@ -15,467 +15,562 @@
                 {
                   "examples": [
                     {
-                      "text": "we'll be conducting a series of scientific tests"
+                      "text": "she had bright blue eyes"
                     }
                   ],
-                  "id": "t_en_gb0014747.001",
-                  "subsenses": [
-                    {
-                      "id": "id817235f4-3182-4854-94cc-0c29179c539d",
-                      "synonyms": [
-                        {
-                          "id": "check",
-                          "language": "en",
-                          "text": "check"
-                        },
-                        {
-                          "id": "examination",
-                          "language": "en",
-                          "text": "examination"
-                        },
-                        {
-                          "id": "assessment",
-                          "language": "en",
-                          "text": "assessment"
-                        },
-                        {
-                          "id": "evaluation",
-                          "language": "en",
-                          "text": "evaluation"
-                        },
-                        {
-                          "id": "appraisal",
-                          "language": "en",
-                          "text": "appraisal"
-                        },
-                        {
-                          "id": "investigation",
-                          "language": "en",
-                          "text": "investigation"
-                        },
-                        {
-                          "id": "inspection",
-                          "language": "en",
-                          "text": "inspection"
-                        },
-                        {
-                          "id": "analysis",
-                          "language": "en",
-                          "text": "analysis"
-                        },
-                        {
-                          "id": "scrutiny",
-                          "language": "en",
-                          "text": "scrutiny"
-                        },
-                        {
-                          "id": "scrutinization",
-                          "language": "en",
-                          "text": "scrutinization"
-                        },
-                        {
-                          "id": "study",
-                          "language": "en",
-                          "text": "study"
-                        },
-                        {
-                          "id": "probe",
-                          "language": "en",
-                          "text": "probe"
-                        },
-                        {
-                          "id": "exploration",
-                          "language": "en",
-                          "text": "exploration"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "id47dd9dbf-e420-4fb1-a4f1-db22e7e3937c",
-                      "synonyms": [
-                        {
-                          "id": "screening",
-                          "language": "en",
-                          "text": "screening"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "idc077906f-3013-4627-b7fa-022e3e90bde7",
-                      "synonyms": [
-                        {
-                          "id": "audition",
-                          "language": "en",
-                          "text": "audition"
-                        },
-                        {
-                          "id": "screen_test",
-                          "language": "en",
-                          "text": "screen test"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "id3161ab06-9476-40fd-9719-6c7e86aac328",
-                      "registers": [
-                        "technical"
-                      ],
-                      "synonyms": [
-                        {
-                          "id": "assay",
-                          "language": "en",
-                          "text": "assay"
-                        }
-                      ]
-                    }
-                  ],
+                  "id": "t_en_gb0001547.001",
                   "synonyms": [
                     {
-                      "id": "trial",
+                      "id": "sky-blue",
                       "language": "en",
-                      "text": "trial"
+                      "text": "sky-blue"
                     },
                     {
-                      "id": "experiment",
+                      "id": "azure",
                       "language": "en",
-                      "text": "experiment"
+                      "text": "azure"
                     },
                     {
-                      "id": "pilot_study",
+                      "id": "cobalt",
                       "language": "en",
-                      "text": "pilot study"
+                      "text": "cobalt"
                     },
                     {
-                      "id": "try-out",
+                      "id": "cobalt_blue",
                       "language": "en",
-                      "text": "try-out"
+                      "text": "cobalt blue"
+                    },
+                    {
+                      "id": "sapphire",
+                      "language": "en",
+                      "text": "sapphire"
+                    },
+                    {
+                      "id": "cerulean",
+                      "language": "en",
+                      "text": "cerulean"
+                    },
+                    {
+                      "id": "navy",
+                      "language": "en",
+                      "text": "navy"
+                    },
+                    {
+                      "id": "navy_blue",
+                      "language": "en",
+                      "text": "navy blue"
+                    },
+                    {
+                      "id": "saxe",
+                      "language": "en",
+                      "text": "saxe"
+                    },
+                    {
+                      "id": "saxe_blue",
+                      "language": "en",
+                      "text": "saxe blue"
+                    },
+                    {
+                      "id": "oxford_blue",
+                      "language": "en",
+                      "text": "Oxford blue"
+                    },
+                    {
+                      "id": "cambridge_blue",
+                      "language": "en",
+                      "text": "Cambridge blue"
+                    },
+                    {
+                      "id": "ultramarine",
+                      "language": "en",
+                      "text": "ultramarine"
+                    },
+                    {
+                      "id": "lapis_lazuli",
+                      "language": "en",
+                      "text": "lapis lazuli"
+                    },
+                    {
+                      "id": "indigo",
+                      "language": "en",
+                      "text": "indigo"
+                    },
+                    {
+                      "id": "aquamarine",
+                      "language": "en",
+                      "text": "aquamarine"
+                    },
+                    {
+                      "id": "turquoise",
+                      "language": "en",
+                      "text": "turquoise"
+                    },
+                    {
+                      "id": "teal",
+                      "language": "en",
+                      "text": "teal"
+                    },
+                    {
+                      "id": "teal_blue",
+                      "language": "en",
+                      "text": "teal blue"
+                    },
+                    {
+                      "id": "cyan",
+                      "language": "en",
+                      "text": "cyan"
+                    },
+                    {
+                      "id": "of_the_colour_of_the_sky",
+                      "language": "en",
+                      "text": "of the colour of the sky"
+                    },
+                    {
+                      "id": "of_the_colour_of_the_sea",
+                      "language": "en",
+                      "text": "of the colour of the sea"
                     }
                   ]
                 },
                 {
                   "examples": [
                     {
-                      "text": "candidates may be required to take a test"
+                      "text": "Dad had died that year and Mum was feeling a bit blue"
                     }
                   ],
-                  "id": "t_en_gb0014747.002",
+                  "id": "t_en_gb0001547.002",
+                  "registers": [
+                    "informal"
+                  ],
                   "subsenses": [
                     {
-                      "id": "idd13b819a-50c3-4fa7-a3ee-4ca19c6ece3e",
+                      "id": "idb2957d63-2ca4-4223-80f3-f1c47f613e6b",
+                      "registers": [
+                        "informal"
+                      ],
                       "synonyms": [
                         {
-                          "id": "paper",
+                          "id": "down_in_the_dumps",
                           "language": "en",
-                          "text": "paper"
+                          "text": "down in the dumps"
                         },
                         {
-                          "id": "set_of_questions",
+                          "id": "down_in_the_mouth",
                           "language": "en",
-                          "text": "set of questions"
+                          "text": "down in the mouth"
+                        },
+                        {
+                          "id": "fed_up",
+                          "language": "en",
+                          "text": "fed up"
+                        }
+                      ]
+                    }
+                  ],
+                  "synonyms": [
+                    {
+                      "id": "depressed",
+                      "language": "en",
+                      "text": "depressed"
+                    },
+                    {
+                      "id": "down",
+                      "language": "en",
+                      "text": "down"
+                    },
+                    {
+                      "id": "sad",
+                      "language": "en",
+                      "text": "sad"
+                    },
+                    {
+                      "id": "saddened",
+                      "language": "en",
+                      "text": "saddened"
+                    },
+                    {
+                      "id": "unhappy",
+                      "language": "en",
+                      "text": "unhappy"
+                    },
+                    {
+                      "id": "melancholy",
+                      "language": "en",
+                      "text": "melancholy"
+                    },
+                    {
+                      "id": "miserable",
+                      "language": "en",
+                      "text": "miserable"
+                    },
+                    {
+                      "id": "sorrowful",
+                      "language": "en",
+                      "text": "sorrowful"
+                    },
+                    {
+                      "id": "gloomy",
+                      "language": "en",
+                      "text": "gloomy"
+                    },
+                    {
+                      "id": "dejected",
+                      "language": "en",
+                      "text": "dejected"
+                    },
+                    {
+                      "id": "downhearted",
+                      "language": "en",
+                      "text": "downhearted"
+                    },
+                    {
+                      "id": "disheartened",
+                      "language": "en",
+                      "text": "disheartened"
+                    },
+                    {
+                      "id": "despondent",
+                      "language": "en",
+                      "text": "despondent"
+                    },
+                    {
+                      "id": "dispirited",
+                      "language": "en",
+                      "text": "dispirited"
+                    },
+                    {
+                      "id": "low",
+                      "language": "en",
+                      "text": "low"
+                    },
+                    {
+                      "id": "in_low_spirits",
+                      "language": "en",
+                      "text": "in low spirits"
+                    },
+                    {
+                      "id": "low-spirited",
+                      "language": "en",
+                      "text": "low-spirited"
+                    },
+                    {
+                      "id": "heavy-hearted",
+                      "language": "en",
+                      "text": "heavy-hearted"
+                    },
+                    {
+                      "id": "glum",
+                      "language": "en",
+                      "text": "glum"
+                    },
+                    {
+                      "id": "morose",
+                      "language": "en",
+                      "text": "morose"
+                    },
+                    {
+                      "id": "dismal",
+                      "language": "en",
+                      "text": "dismal"
+                    },
+                    {
+                      "id": "downcast",
+                      "language": "en",
+                      "text": "downcast"
+                    },
+                    {
+                      "id": "cast_down",
+                      "language": "en",
+                      "text": "cast down"
+                    },
+                    {
+                      "id": "tearful",
+                      "language": "en",
+                      "text": "tearful"
+                    }
+                  ]
+                },
+                {
+                  "examples": [
+                    {
+                      "text": "a blue movie"
+                    }
+                  ],
+                  "id": "t_en_gb0001547.003",
+                  "subsenses": [
+                    {
+                      "id": "id3381e3cc-2c63-462f-afd5-2e8f5d8259c8",
+                      "synonyms": [
+                        {
+                          "id": "pornographic",
+                          "language": "en",
+                          "text": "pornographic"
+                        },
+                        {
+                          "id": "filthy",
+                          "language": "en",
+                          "text": "filthy"
+                        },
+                        {
+                          "id": "obscene",
+                          "language": "en",
+                          "text": "obscene"
+                        },
+                        {
+                          "id": "offensive",
+                          "language": "en",
+                          "text": "offensive"
+                        },
+                        {
+                          "id": "prurient",
+                          "language": "en",
+                          "text": "prurient"
+                        },
+                        {
+                          "id": "sordid",
+                          "language": "en",
+                          "text": "sordid"
+                        },
+                        {
+                          "id": "low",
+                          "language": "en",
+                          "text": "low"
+                        },
+                        {
+                          "id": "profane",
+                          "language": "en",
+                          "text": "profane"
+                        },
+                        {
+                          "id": "foul",
+                          "language": "en",
+                          "text": "foul"
+                        },
+                        {
+                          "id": "vile",
+                          "language": "en",
+                          "text": "vile"
                         }
                       ]
                     },
                     {
-                      "id": "id597e3783-d472-4e36-aac8-fcc555b50f52",
+                      "id": "id93ae24c2-72a6-4f6b-a147-2783c0e0b9df",
+                      "synonyms": [
+                        {
+                          "id": "erotic",
+                          "language": "en",
+                          "text": "erotic"
+                        },
+                        {
+                          "id": "arousing",
+                          "language": "en",
+                          "text": "arousing"
+                        },
+                        {
+                          "id": "sexy",
+                          "language": "en",
+                          "text": "sexy"
+                        },
+                        {
+                          "id": "suggestive",
+                          "language": "en",
+                          "text": "suggestive"
+                        },
+                        {
+                          "id": "titillating",
+                          "language": "en",
+                          "text": "titillating"
+                        },
+                        {
+                          "id": "explicit",
+                          "language": "en",
+                          "text": "explicit"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "ida77b109f-d646-4adf-a4df-4361436a5444",
+                      "registers": [
+                        "informal"
+                      ],
+                      "synonyms": [
+                        {
+                          "id": "near_the_bone",
+                          "language": "en",
+                          "text": "near the bone"
+                        },
+                        {
+                          "id": "near_the_knuckle",
+                          "language": "en",
+                          "text": "near the knuckle"
+                        },
+                        {
+                          "id": "nudge-nudge",
+                          "language": "en",
+                          "text": "nudge-nudge"
+                        },
+                        {
+                          "id": "porn",
+                          "language": "en",
+                          "text": "porn"
+                        },
+                        {
+                          "id": "porno",
+                          "language": "en",
+                          "text": "porno"
+                        },
+                        {
+                          "id": "x-rated",
+                          "language": "en",
+                          "text": "X-rated"
+                        },
+                        {
+                          "id": "raunchy",
+                          "language": "en",
+                          "text": "raunchy"
+                        },
+                        {
+                          "id": "skin",
+                          "language": "en",
+                          "text": "skin"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "ida187d6db-bad5-4a69-b9dc-690debd07859",
                       "regions": [
-                        "North American"
+                        "British"
                       ],
-                      "synonyms": [
-                        {
-                          "id": "quiz",
-                          "language": "en",
-                          "text": "quiz"
-                        }
-                      ]
-                    }
-                  ],
-                  "synonyms": [
-                    {
-                      "id": "exam",
-                      "language": "en",
-                      "text": "exam"
-                    },
-                    {
-                      "id": "examination",
-                      "language": "en",
-                      "text": "examination"
-                    }
-                  ]
-                },
-                {
-                  "examples": [
-                    {
-                      "text": "the test of a good sparkling wine is the length of time the bubbles last in the glass"
-                    }
-                  ],
-                  "id": "t_en_gb0014747.003",
-                  "synonyms": [
-                    {
-                      "id": "criterion",
-                      "language": "en",
-                      "text": "criterion"
-                    },
-                    {
-                      "id": "proof",
-                      "language": "en",
-                      "text": "proof"
-                    },
-                    {
-                      "id": "indication",
-                      "language": "en",
-                      "text": "indication"
-                    },
-                    {
-                      "id": "yardstick",
-                      "language": "en",
-                      "text": "yardstick"
-                    },
-                    {
-                      "id": "touchstone",
-                      "language": "en",
-                      "text": "touchstone"
-                    },
-                    {
-                      "id": "standard",
-                      "language": "en",
-                      "text": "standard"
-                    },
-                    {
-                      "id": "measure",
-                      "language": "en",
-                      "text": "measure"
-                    },
-                    {
-                      "id": "litmus_test",
-                      "language": "en",
-                      "text": "litmus test"
-                    },
-                    {
-                      "id": "barometer",
-                      "language": "en",
-                      "text": "barometer"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "language": "en",
-          "lexicalCategory": "Noun",
-          "text": "test"
-        },
-        {
-          "entries": [
-            {
-              "homographNumber": "001",
-              "senses": [
-                {
-                  "examples": [
-                    {
-                      "text": "during the summer, a small-scale prototype was tested"
-                    },
-                    {
-                      "text": "all donated blood is tested for antibodies"
-                    }
-                  ],
-                  "id": "t_en_gb0014747.004",
-                  "subsenses": [
-                    {
-                      "id": "id15fe6b71-1f80-44a1-9196-21271837b5bc",
-                      "synonyms": [
-                        {
-                          "id": "check",
-                          "language": "en",
-                          "text": "check"
-                        },
-                        {
-                          "id": "examine",
-                          "language": "en",
-                          "text": "examine"
-                        },
-                        {
-                          "id": "assess",
-                          "language": "en",
-                          "text": "assess"
-                        },
-                        {
-                          "id": "evaluate",
-                          "language": "en",
-                          "text": "evaluate"
-                        },
-                        {
-                          "id": "appraise",
-                          "language": "en",
-                          "text": "appraise"
-                        },
-                        {
-                          "id": "investigate",
-                          "language": "en",
-                          "text": "investigate"
-                        },
-                        {
-                          "id": "analyse",
-                          "language": "en",
-                          "text": "analyse"
-                        },
-                        {
-                          "id": "scrutinize",
-                          "language": "en",
-                          "text": "scrutinize"
-                        },
-                        {
-                          "id": "study",
-                          "language": "en",
-                          "text": "study"
-                        },
-                        {
-                          "id": "probe",
-                          "language": "en",
-                          "text": "probe"
-                        },
-                        {
-                          "id": "explore",
-                          "language": "en",
-                          "text": "explore"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "id6025dbe8-7b43-4f4f-bd3d-e1451e559451",
-                      "synonyms": [
-                        {
-                          "id": "sample",
-                          "language": "en",
-                          "text": "sample"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "id98347f5f-45c8-48e0-af9e-18ae7d150cef",
-                      "synonyms": [
-                        {
-                          "id": "screen",
-                          "language": "en",
-                          "text": "screen"
-                        }
-                      ]
-                    },
-                    {
-                      "id": "idc4f460e3-bd44-4653-9ffa-4b9a38089c84",
                       "registers": [
-                        "technical"
+                        "informal"
                       ],
                       "synonyms": [
                         {
-                          "id": "assay",
+                          "id": "fruity",
                           "language": "en",
-                          "text": "assay"
-                        }
-                      ]
-                    }
-                  ],
-                  "synonyms": [
-                    {
-                      "id": "try_out",
-                      "language": "en",
-                      "text": "try out"
-                    },
-                    {
-                      "id": "trial",
-                      "language": "en",
-                      "text": "trial"
-                    },
-                    {
-                      "id": "carry_out_trials_on",
-                      "language": "en",
-                      "text": "carry out trials on"
-                    },
-                    {
-                      "id": "put_to_the_test",
-                      "language": "en",
-                      "text": "put to the test"
-                    },
-                    {
-                      "id": "put_through_its_paces",
-                      "language": "en",
-                      "text": "put through its paces"
-                    },
-                    {
-                      "id": "experiment_with",
-                      "language": "en",
-                      "text": "experiment with"
-                    },
-                    {
-                      "id": "pilot",
-                      "language": "en",
-                      "text": "pilot"
-                    }
-                  ]
-                },
-                {
-                  "examples": [
-                    {
-                      "text": "such behaviour would severely test any marriage"
-                    }
-                  ],
-                  "id": "t_en_gb0014747.005",
-                  "subsenses": [
-                    {
-                      "id": "ide546c36a-1122-4ce5-9ebd-d6e87603374d",
-                      "synonyms": [
-                        {
-                          "id": "drain",
-                          "language": "en",
-                          "text": "drain"
+                          "text": "fruity"
                         },
                         {
-                          "id": "sap",
+                          "id": "saucy",
                           "language": "en",
-                          "text": "sap"
+                          "text": "saucy"
                         }
                       ]
                     },
                     {
-                      "id": "id536ae5c4-98e0-465d-a764-4dc8267eb624",
+                      "id": "id5531a2f3-ec21-42d3-b833-989cfc291b75",
+                      "registers": [
+                        "euphemistic"
+                      ],
                       "synonyms": [
                         {
-                          "id": "challenge",
+                          "id": "adult",
                           "language": "en",
-                          "text": "challenge"
+                          "text": "adult"
                         }
                       ]
                     }
                   ],
                   "synonyms": [
                     {
-                      "id": "put_a_strain_on",
+                      "id": "indecent",
                       "language": "en",
-                      "text": "put a strain on"
+                      "text": "indecent"
                     },
                     {
-                      "id": "strain",
+                      "id": "dirty",
                       "language": "en",
-                      "text": "strain"
+                      "text": "dirty"
                     },
                     {
-                      "id": "tax",
+                      "id": "rude",
                       "language": "en",
-                      "text": "tax"
+                      "text": "rude"
                     },
                     {
-                      "id": "try",
+                      "id": "coarse",
                       "language": "en",
-                      "text": "try"
+                      "text": "coarse"
                     },
                     {
-                      "id": "make_demands_on",
+                      "id": "vulgar",
                       "language": "en",
-                      "text": "make demands on"
+                      "text": "vulgar"
                     },
                     {
-                      "id": "stretch",
+                      "id": "bawdy",
                       "language": "en",
-                      "text": "stretch"
+                      "text": "bawdy"
+                    },
+                    {
+                      "id": "lewd",
+                      "language": "en",
+                      "text": "lewd"
+                    },
+                    {
+                      "id": "racy",
+                      "language": "en",
+                      "text": "racy"
+                    },
+                    {
+                      "id": "risqu%C3%A9",
+                      "language": "en",
+                      "text": "risqu\u00e9"
+                    },
+                    {
+                      "id": "salacious",
+                      "language": "en",
+                      "text": "salacious"
+                    },
+                    {
+                      "id": "naughty",
+                      "language": "en",
+                      "text": "naughty"
+                    },
+                    {
+                      "id": "wicked",
+                      "language": "en",
+                      "text": "wicked"
+                    },
+                    {
+                      "id": "improper",
+                      "language": "en",
+                      "text": "improper"
+                    },
+                    {
+                      "id": "unseemly",
+                      "language": "en",
+                      "text": "unseemly"
+                    },
+                    {
+                      "id": "smutty",
+                      "language": "en",
+                      "text": "smutty"
+                    },
+                    {
+                      "id": "spicy",
+                      "language": "en",
+                      "text": "spicy"
+                    },
+                    {
+                      "id": "raw",
+                      "language": "en",
+                      "text": "raw"
+                    },
+                    {
+                      "id": "off_colour",
+                      "language": "en",
+                      "text": "off colour"
+                    },
+                    {
+                      "id": "ribald",
+                      "language": "en",
+                      "text": "ribald"
+                    },
+                    {
+                      "id": "rabelaisian",
+                      "language": "en",
+                      "text": "Rabelaisian"
                     }
                   ]
                 }
@@ -483,12 +578,12 @@
             }
           ],
           "language": "en",
-          "lexicalCategory": "Verb",
-          "text": "test"
+          "lexicalCategory": "Adjective",
+          "text": "blue"
         }
       ],
       "type": "headword",
-      "word": "test"
+      "word": "blue"
     }
   ]
 }

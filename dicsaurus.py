@@ -9,9 +9,14 @@ import config
 
 BASE_URL = 'https://od-api.oxforddictionaries.com/api/v1'
 
+INDENT_UNIT = "   "
 
-def get_indent(nesting=1):
-    return "   " * nesting
+
+def print_with_indent(str, indent=0, with_preceding_newlines=0):
+    if with_preceding_newlines > 0:
+        print('\n' * (with_preceding_newlines-1))
+
+    print(f"{INDENT_UNIT * indent}{str}")
 
 
 def get_definitions(config, word):
@@ -30,38 +35,34 @@ def get_definitions(config, word):
 
 
 def print_definitions(word, data):
+    print_with_indent(f"Definition(s) for '{word}'", with_preceding_newlines=1)
     for result in data['results']:
-        print(f"\nDefinitions for '{word}'")
+        for index, lex_entry in enumerate(result['lexicalEntries']):
+            print_with_indent(
+                f"{lex_entry['text']} ({lex_entry['lexicalCategory']})",
+                1,
+                with_preceding_newlines=1 if index == 0 else 2
+            )
 
-        for lex_entry in result['lexicalEntries']:
-            indent = get_indent()
+            if 'derivative' in lex_entry and len(lex_entry['derivatives']) > 0:
+                print_with_indent(f"Derivative(s):", 2, with_preceding_newlines=1)
 
-            print(f"\n{indent}{lex_entry['text']} ({lex_entry['lexicalCategory']})")
-
-            if 'derivatives' in lex_entry and len(lex_entry['derivatives']) > 0:
-                print(f"\n{indent}Derivatives:")
-                indent = get_indent(2)
                 for derivative in lex_entry['derivatives']:
-                    # print('derivative: %s' % derivative)
-                    print(f"{indent}{derivative['text']}")
+                    print_with_indent(f"{derivative['text']}", 3)
 
             for entry in lex_entry['entries']:
                 if len(entry['senses']) > 0:
-                    indent = get_indent(1)
-                    print(f"\n{indent}Senses:")
-                    indent = get_indent(2)
+                    print_with_indent(f"Example(s):", 2, with_preceding_newlines=1)
                     for sense in entry['senses']:
                         if 'examples' in sense:
                             for example in sense['examples']:
-                                print(f"{indent}{example['text']}")
+                                print_with_indent(f"{example['text']}", 3)
 
                 if 'etymologies' in entry:
-                    indent = get_indent(1)
-                    print(f"\n{indent}Etomologies:")
+                    print_with_indent(f"Etomologie(s):", 2, with_preceding_newlines=1)
 
-                    indent = get_indent(2)
                     for et in entry['etymologies']:
-                        print(f"{indent}{et}:")
+                        print_with_indent(f"{et}", 3)
 
 
 def get_synonyms(config, word):
@@ -80,29 +81,36 @@ def get_synonyms(config, word):
 
 
 def print_synonyms(word, data):
+    print_with_indent(f"Synonym(s) for '{word}'", with_preceding_newlines=1)
+
     for result in data['results']:
         for lex_entry in result['lexicalEntries']:
+            print_with_indent(f"{lex_entry['text']} ({lex_entry['lexicalCategory']})", 1, with_preceding_newlines=1)
+
             for entry in lex_entry['entries']:
                 for sense in entry['senses']:
-                    print("\nSnynoyms:")
+                    if 'registers' in sense:
+                        registers = ", ".join(sense['registers'])
+                        print_with_indent(f"{lex_entry['text']} ({registers})", 1, with_preceding_newlines=2)
 
                     if len(sense['synonyms']) > 0:
-                        indent = get_indent()
+                        print_with_indent("Snynoym(s):", 2, with_preceding_newlines=1)
                         for syn in sense['synonyms']:
-                            print(f"{indent}{syn['text']}")
+                            print_with_indent(f"{syn['text']}", 3)
 
-                        if 'subsenses' in sense:
-                            subsenses = sense['subsenses']
-                            print(f"\n{indent}Sub-senses:")
-                            indent = get_indent(2)
-                            try:
-                                # For god's sake this subscript works but raises a KeyError ...
-                                for subsense in subsenses:
-                                    for syn in subsense['synonyms']:
-                                        print(f"{indent} {syn['text']}")
+                    if 'examples' in sense:
+                        print_with_indent(f"Example(s):", 2, with_preceding_newlines=1)
 
-                            except KeyError:
-                                pass
+                        for example in sense['examples']:
+                            print_with_indent(f"{example['text']}", 3)
+
+
+                        # if 'subsenses' in sense:
+                        #     print_with_indent(f"Example(s):", 2, with_preceding_newlines=1)
+                        #
+                        #     for subsense in sense['subsenses']:
+                        #         for syn in subsense['synonyms']:
+                        #             print_with_indent(f"{syn['text']}", 3)
 
 
 if __name__ == '__main__':
