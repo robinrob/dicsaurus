@@ -119,7 +119,7 @@ def print_synonyms(word, data):
 
 
                     if len(synonyms) > 0:
-                        print_with_indent("Snynoym(s):", 2, with_preceding_newlines=1)
+                        print_with_indent("Synonym(s):", 2, with_preceding_newlines=1)
 
                         for syn in synonyms:
                             print_with_indent(f"{syn['text']}", 3)
